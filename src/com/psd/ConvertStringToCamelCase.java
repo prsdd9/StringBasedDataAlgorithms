@@ -14,6 +14,8 @@ public class ConvertStringToCamelCase {
 				sb.append(Character.toUpperCase(srcChar));
 				isConvertRequired=false;
 			}
+			
+			
 			else {
 				sb.append(srcChar);
 			}
